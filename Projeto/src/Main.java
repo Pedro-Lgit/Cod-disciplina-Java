@@ -1,13 +1,13 @@
 public class Main {
 
     public static void main(String[] args) {
-       // int x;
-       // int y;
 
-        System.out.println("Hello Word!!");
-      // System.out.println(x + y);
-       // System.out.println("A soma de x e y é:"+ (x + y));  //O primeiro + é para concat...
+        int lanche1 = 10, lanche2 = 4, lanche3 =2;
 
+        int total = lanche1 + lanche2 + lanche3;
+        float media = total/3.0f;
+        System.out.println("O total de lanches foi: "+total);
+        System.out.println("A media de lanches foi: "+media);
     }
 
 
