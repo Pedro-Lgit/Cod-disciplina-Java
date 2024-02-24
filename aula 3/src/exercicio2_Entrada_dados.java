@@ -6,8 +6,6 @@ public class exercicio2_Entrada_dados {
         Scanner entrada = new Scanner(System.in);
         //entrada de dados
 
-        //int meuInteiro = entrada.nextInt();    //funcao de entrada com inteiros
-
         System.out.println("Entre com o numero dos lanches da primeira hora: ");   //saida de dados
         int lanche1 = entrada.nextInt();
 
